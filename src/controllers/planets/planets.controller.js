@@ -1,5 +1,7 @@
+const planets = [];
+
 const getAllPlanets = (req, res) => {
-    res.send('Get All Planets');
+    return res.status(200).json(planets);
 };
 
 module.exports = { getAllPlanets }
