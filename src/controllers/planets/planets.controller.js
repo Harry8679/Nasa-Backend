@@ -1,4 +1,3 @@
-// const planets = [];
 const planets = require('../../models/planets.model');
 
 const getAllPlanets = (req, res) => {
