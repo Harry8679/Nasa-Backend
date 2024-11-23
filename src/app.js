@@ -5,7 +5,6 @@ const app = express();
 const morgan = require('morgan');
 const planetsRoutes = require('./routes/planets/planets.route');
 const launchesRoutes = require('./routes/launches/launches.route');
-// const launchesRoutes = require('./routes/launches/launches.route');
 
 app.use(cors({
     origin: 'http://localhost:3030'
